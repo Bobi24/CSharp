@@ -1,0 +1,5 @@
+string SName = Console.ReadLine();
+int SAge = int.Parse(Console.ReadLine());
+double AGrade  = double.Parse(Console.ReadLine());
+
+Console.WriteLine($"Name: {SName}, Age: {SAge}, Grade: {AGrade}.");
