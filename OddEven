@@ -1,0 +1,10 @@
+int a = int.Parse(Console.ReadLine());
+
+if (a % 2 == 0)
+{
+    Console.WriteLine($"The number {a} is odd.");
+}
+else
+{
+    Console.WriteLine($"The number {a} is even.");
+}
